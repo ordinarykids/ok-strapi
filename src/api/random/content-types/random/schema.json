@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "randoms",
+  "info": {
+    "singularName": "random",
+    "pluralName": "randoms",
+    "displayName": "Random",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
